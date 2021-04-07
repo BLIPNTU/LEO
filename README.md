@@ -4,7 +4,9 @@
 
 ## Installation
 
-`blipleo` package is available on PyPI and can be installed using pip
+`blipleo` package is available on the Python official package index PyPI: https://pypi.org/project/blipleo/
+
+It can be installed on Python 3.6 or later using pip
 
 ```bash
 pip install blipleo
