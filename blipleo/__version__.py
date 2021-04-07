@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+
+# chirptext's package version information
+__author__ = "Le Tuan Anh"
+__email__ = "tuananh.le@ntu.edu.sg"
+__copyright__ = "Copyright (c) 2020, BLIP lab, NTU, Singapore"
+__credits__ = []
+__license__ = "GPL-3"
+__description__ = "Language Experience Overview (LEO) Report Generator"
+__url__ = "https://blogs.ntu.edu.sg/blip/"
+__maintainer__ = "Le Tuan Anh"
+__version_major__ = "0.1"
+__version__ = "{}a3".format(__version_major__)
+__version_long__ = "{} - Alpha".format(__version_major__)
+__status__ = "Prototype"

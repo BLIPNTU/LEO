@@ -1,0 +1,49 @@
+{
+  "reportID": "00001",
+  "baby": {
+    "name": "Baby",
+    "age": "15 months",
+    "languages": [
+      ["English", 54.5, -1, -1, -1, -1], ["Mandarin", 30.5, -1, -1, -1, -1],
+      ["Malay", 7.5, -1, -1, -1, -1], ["Cantonese", 7.5, -1, -1, -1, -1]
+    ]
+  },
+  "people": [
+    {
+      "name": "Mother",
+      "usage": 30,
+      "piesize": 60,
+      "languages": [
+        ["English", 75, 7, 7, 7, 7], ["Mandarin", 10, 3, 3, 3, 3],
+        ["Cantonese", 15, 7, 1, 1, 7]
+      ]
+    },
+    {
+      "name": "Father",
+      "usage": 20,
+      "piesize": 40,
+      "languages": [["English", 100, 7, 7, 7, 7]]
+    },
+    {
+      "name": "Ah Ma",
+      "usage": 30,
+      "piesize": 60,
+      "languages": [
+        ["Mandarin", 90, 3, 1, 1, 3], ["Cantonese", 10, 7, 7, 7, 7]
+      ]
+    },
+    {
+      "name": "Jenny (Helper)",
+      "usage": 15,
+      "piesize": 30,
+      "languages": [["English", 80, 3, 1, 1, 3], ["Malay", 20, 7, 7, 7, 7]]
+    },
+    {
+      "name": "Aunty Rose",
+      "usage": 5,
+      "piesize": 10,
+      "languages": [["Malay", 90, 7, 7, 7, 7], ["Mandarin", 10, 2, 1, 1, 2]]
+    }
+  ],
+  "pdf_filename": "baby_test.pdf"
+}

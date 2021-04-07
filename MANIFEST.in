@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+include blipleo/templates/LICENSE
+recursive-include blipleo/templates *.svg
