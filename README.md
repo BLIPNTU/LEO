@@ -21,6 +21,8 @@ leo = blipleo.read_json('./data/baby_test.json')
 blipleo.generate_leo(leo, './data')
 ```
 
+The generated LEO report looks like this: https://github.com/BLIPNTU/LEO/blob/main/data/baby_test.pdf
+
 ## License
 
 - The blipleo package is licensed under GPL version 3.0
