@@ -34,6 +34,8 @@ The generated LEO report looks like this: https://github.com/BLIPNTU/LEO/blob/ma
 
 `blipleo` is a free software, source code is available on Github: https://github.com/BLIPNTU/LEO
 
+LEO research archive: https://doi.org/10.21979/N9/XQUFEW
+
 ## Contact
 
 For more information, please contact Fei Ting Woon at feitingwoon@ntu.edu.sg
