@@ -2,7 +2,6 @@
 
 `blipleo` is a Python package to generate Language Experience Overview (LEO) report.
 
-
 ## Installation
 
 `blipleo` package is available on PyPI and can be installed using pip
@@ -11,7 +10,9 @@
 pip install blipleo
 ```
 
-To generate a LEO report, prepare a json data file (See `data/baby_test.json` in `blipleo`'s source code repository)
+## Usage
+
+To generate a LEO report, prepare a LEO json data file (For sample see: [data/baby_test.json](https://github.com/BLIPNTU/LEO/blob/main/data/baby_test.json))
 and use the following commands:
 
 ```python
@@ -24,6 +25,10 @@ blipleo.generate_leo(leo, './data')
 
 - The blipleo package is licensed under GPL version 3.0
 - The LEO template graphic vector files under templates folder are licensed under CC-BY-NC 4.0
+
+## Developers
+
+`blipleo` is a free software, source code is available on Github: https://github.com/BLIPNTU/LEO
 
 ## Contact
 
