@@ -8,13 +8,10 @@ In order to capture this variety, we created a flexible multilingual tool, the L
 This multivariate multilingual tool combines estimates of care time and language-use ratios with language profiles of each caregiver. 
 Importantly, the LEO Report visualises the results in parent-friendly feedback. 
 
-Read more: https://doi.org/10.21979/N9/XQUFEW
-
-```
-Woon, Fei Ting; Le, Tuan Anh; binte Amran, Shaza; Ang, Wen Xin & Styles, Suzy J 
-```
-
 `blipleo` is a Python package to generate Language Experience Overview (LEO) report.
+
+Citation: 
+Woon, Fei Ting; Le, Tuan Anh; binte Amran, Shaza; Ang, Wen Xin; Styles, Suzy J, 2021, "Language Experiences Overview (LEO)", https://doi.org/10.21979/N9/XQUFEW, DR-NTU (Data), V1
 
 ## Installation
 
