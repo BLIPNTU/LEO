@@ -1,5 +1,8 @@
 # Language Experience Overview (LEO) Report Generator
 
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/BLIPNTU/LEO.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/BLIPNTU/LEO/alerts/)
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/BLIPNTU/LEO.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/BLIPNTU/LEO/context:python)
+
 In Singapore, more than 90% of adults are literate in at least 2 languages (Singapore Census, 2010). 
 Singaporean families often involve grandparents in the care of young children, and one in five families employ a live-in foreign worker for domestic help (Singapore Ministry of Manpower, 2020). 
 Infants in Singapore typically hear two or more languages from each parent, two-to-three languages from their grandparents (Woon, 2018), and possibly more from a domestic helper. 
