@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
+# Language Experience Overview (LEO) Report Generator
 
-You can use the [editor on GitHub](https://github.com/BLIPNTU/LEO/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/BLIPNTU/LEO.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/BLIPNTU/LEO/alerts/)
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/BLIPNTU/LEO.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/BLIPNTU/LEO/context:python)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+In Singapore, more than 90% of adults are literate in at least 2 languages (Singapore Census, 2010). 
+Singaporean families often involve grandparents in the care of young children, and one in five families employ a live-in foreign worker for domestic help (Singapore Ministry of Manpower, 2020). 
+Infants in Singapore typically hear two or more languages from each parent, two-to-three languages from their grandparents (Woon, 2018), and possibly more from a domestic helper. 
+Given this complexity, existing models of balanced/unbalanced or dominant/non-dominant bilingualism are insufficient for describing the rich tapestry of multilingual experiences. 
+In order to capture this variety, we created a flexible multilingual tool, the Language Experience Overview (LEO). 
+This multivariate multilingual tool combines estimates of care time and language-use ratios with language profiles of each caregiver. 
+Importantly, the LEO Report visualises the results in parent-friendly feedback. 
 
-### Markdown
+`blipleo` is a Python package to generate Language Experience Overview (LEO) report.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Citation: 
+Woon, Fei Ting; Le, Tuan Anh; binte Amran, Shaza; Ang, Wen Xin; Styles, Suzy J, 2021, "Language Experiences Overview (LEO)", https://doi.org/10.21979/N9/XQUFEW, DR-NTU (Data), V1
 
-```markdown
-Syntax highlighted code block
+## Installation
 
-# Header 1
-## Header 2
-### Header 3
+`blipleo` package is available on the Python official package index PyPI: https://pypi.org/project/blipleo/
 
-- Bulleted
-- List
+It can be installed on Python 3.6 or later using pip
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```bash
+pip install blipleo
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Usage
 
-### Jekyll Themes
+To generate a LEO report, prepare a LEO json data file (For sample see: [data/baby_test.json](https://github.com/BLIPNTU/LEO/blob/main/data/baby_test.json))
+and use the following commands:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/BLIPNTU/LEO/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```python
+import blipleo
+leo = blipleo.read_json('./data/baby_test.json')
+blipleo.generate_leo(leo, './data')
+```
 
-### Support or Contact
+The generated LEO report looks like this: https://github.com/BLIPNTU/LEO/blob/main/data/baby_test.pdf
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## License
+
+- The blipleo package is licensed under GPL version 3.0
+- The LEO template graphic vector files under templates folder are licensed under CC-BY-NC 4.0
+
+## Developers
+
+`blipleo` is a free software, source code is available on Github: https://github.com/BLIPNTU/LEO
+
+LEO research archive: https://doi.org/10.21979/N9/XQUFEW
+
+## Contact
+
+For more information, please contact Fei Ting Woon at feitingwoon@ntu.edu.sg
