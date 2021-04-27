@@ -46,9 +46,9 @@ The generated LEO report looks like this: https://github.com/BLIPNTU/LEO/blob/ma
 
 ## Developers
 
-`blipleo` is a free software, source code is available on Github: https://github.com/BLIPNTU/LEO
-
-LEO research archive: https://doi.org/10.21979/N9/XQUFEW
+- `blipleo` is a free software, source code is available on Github: https://github.com/BLIPNTU/LEO
+- LEO research archive: https://doi.org/10.21979/N9/XQUFEW
+- Maintainer: [Le Tuan Anh](https://github.com/letuananh)
 
 ## Contact
 
