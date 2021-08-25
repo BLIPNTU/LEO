@@ -1,7 +1,7 @@
 FIXED_LANGUAGES = {"English", "Tamil", "Malay", "Mandarin"}
 CN_DIALECTS = ['Cantonese', 'Hainanese', 'Hakka', 'Henghua', 'Hokchew',
                'Hokchia', 'Hokkien', 'Jiangxi', 'Shanghainese', 'Sichuan', 'Teochew']
-BAHASA_DIALECTS = ['Bahasa Indonesia', 'Javanese', 'Boyanese', 'Malaysian Dialect']
+BAHASA_DIALECTS = ['Bahasa Indonesia', 'Javanese', 'Boyanese', 'Malaysian Dialect', 'Other Bahasa']
 INDIAN_DIALECTS = ['Bengali', 'Gujarati', 'Hindi', 'Punjabi', 'Urdu', 'Malayalam', "Telugu"]
 CN_DIALECT_COLORS = ['#FF7518', '#E69F00', '#FF9966', '#FFCC99']
 BAHASA_DIALECT_COLORS = ['#336633', '#009933']
