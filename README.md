@@ -26,6 +26,8 @@ It can be installed on Python 3.6 or later using pip
 pip install blipleo
 ```
 
+**Notes:** `blipleo` requires [Inkscape](https://inkscape.org/release/) to generate PDF files, which can be downloaded freely at https://inkscape.org/release/
+
 ## Usage
 
 To generate a LEO report, prepare a LEO json data file (For sample see: [data/baby_test.json](https://github.com/BLIPNTU/LEO/blob/main/data/baby_test.json))
