@@ -26,8 +26,7 @@ It can be installed on Python 3.6 or later using pip
 pip install blipleo
 ```
 
-Notes: `blipleo` requires [Inkscape](https://inkscape.org/release/) to generate PDF files.
-The software can be downloaded here: https://inkscape.org/release/
+**Notes:** `blipleo` requires [Inkscape](https://inkscape.org/release/) to generate PDF files, which can be downloaded freely at https://inkscape.org/release/
 
 ## Usage
 
